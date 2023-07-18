@@ -9,7 +9,7 @@
 }
 
 .road {
-    border: 2px solid blueviolet;
+    border: 3px solid blueviolet;
     border-radius: 6px;
 
     padding: 20px;
@@ -18,6 +18,13 @@
 .road > img {
     width: 100%;
     border-radius: 6px;
+}
+
+/* simple media query */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .roadContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 576px) {
