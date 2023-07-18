@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.dateContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 10vw);
+    grid-template-rows: 2.5em repeat(5, 5vw);
+    justify-content: center;
+    /* row-gap: 12px; */
+    /* column-gap: 12px; */
+    gap: 12px;
+}
+
+.dateContainer > .date, .day {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.date {
+    background-color: aquamarine;
+    font-size: 1.8em;
+    /* height: 5vw; */
+}
+
+.day {
+    background-color: #ccc;
+    font-size: 1.2em;
+    text-align: center;
+}

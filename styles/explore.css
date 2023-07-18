@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid tomato;
+    width: 80vw;
+    /* height: 80vw; */
+    display: flex;  /*inline block*/
+    justify-content: space-around;  /* flex direction axis */
+    /* align-items: center;    other axis */
+    /* flex-direction: column; */
+}
+
+.box {
+    border: 2px solid blueviolet;
+    width: 20vw;
+    height: 20vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
