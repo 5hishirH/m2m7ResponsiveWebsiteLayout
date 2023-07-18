@@ -1,0 +1,27 @@
+* {
+    font-family: sans-serif;
+}
+
+.roadContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.road {
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+
+    padding: 20px;
+}
+
+.road > img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 576px) {
+    .roadContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
